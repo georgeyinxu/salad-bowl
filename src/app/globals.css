@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Fonts */
+/* Regular */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Inter/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Sora/Sora-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Montserrat/Montserrat-VF.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Charter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Charter/Charter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "TyprosPro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/TyprosPro/TyprosPro-Regular.ttf") format("truetype");
+}
+
+/* Medium */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/Inter/Inter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/Sora/Sora-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/Montserrat/Montserrat-VF.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "TyprosPro";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/TyprosPro/TyprosPro-Medium.ttf") format("truetype");
+}
+
+/* Semi-bold */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/Inter/Inter-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/Sora/Sora-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/Montserrat/Montserrat-VF.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "TyprosPro";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/TyprosPro/TyprosPro-SemiBold.ttf") format("truetype");
+}
+
+/* Bold */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/Inter/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/Sora/Sora-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/Montserrat/Montserrat-VF.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "TyprosPro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/TyprosPro/TyprosPro-Bold.ttf") format("truetype");
+}
+
+/* Black */
+@font-face {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/Gotham/GothamBlack.ttf") format("truetype");
+}
+
+a[href="https://free-online-app.com/faucet-for-eth-evm-chains/"]
+{
+  display: none !important;
+}
